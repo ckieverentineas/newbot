@@ -27,9 +27,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: python pip download -r requirements.txt
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        run: python pip download -r requirements.txt
          
       # Runs a single command using the runners shell
       - name: Run a one-line script
