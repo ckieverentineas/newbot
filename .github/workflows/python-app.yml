@@ -36,3 +36,5 @@ jobs:
         python generate.py
   run: |
         python server.py
+  run: |
+        python server.py
