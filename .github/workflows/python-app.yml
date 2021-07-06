@@ -35,4 +35,5 @@ jobs:
       run: |
         python generate.py
     - name: Starting process
-      run: python server.py
+      run: |
+        python server.py
