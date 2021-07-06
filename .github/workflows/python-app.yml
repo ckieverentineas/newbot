@@ -34,5 +34,3 @@ jobs:
     - name: Test with pytest
       run: |
         python generate.py
-  run: |
-        python server.py
