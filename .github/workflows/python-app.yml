@@ -42,6 +42,6 @@ jobs:
       steps:
       - name: vkBot
         run: |
-          python server.py
+          py server.py
         shell: python
       
